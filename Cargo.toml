@@ -7,7 +7,6 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 description = "svd2rust generated peripheral access library for the stm32f469xx microcontroller family"
 repository = "https://github.com/xd009642/stm32f469xx.git"
-license = "MIT/Apache-2.0"
 
 [dependencies]
 bare-metal = "0.1.1"
