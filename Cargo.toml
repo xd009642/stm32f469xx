@@ -1,6 +1,6 @@
 [package]
 name = "stm32f469xx"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["xd009642 <danielmckenna93@gmail.com>"]
 keywords = ["no-std", "arm", "stm32", "stm32f4"]
 license = "MIT/Apache-2.0"
