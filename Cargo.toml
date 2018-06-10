@@ -18,4 +18,4 @@ optional = true
 version = "0.3.0"
 
 [features]
-rt = ["cortex-m-rt"]
+rt = ["cortex-m-rt/device"]
