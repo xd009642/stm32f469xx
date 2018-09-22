@@ -1,6 +1,6 @@
 [package]
 name = "stm32f469xx"
-version = "0.2.1"
+version = "0.3.0"
 authors = ["xd009642 <danielmckenna93@gmail.com>"]
 keywords = ["no-std", "arm", "stm32", "stm32f4"]
 license = "MIT/Apache-2.0"
@@ -9,13 +9,13 @@ description = "svd2rust generated peripheral access library for the stm32f469xx 
 repository = "https://github.com/xd009642/stm32f469xx.git"
 
 [dependencies]
-bare-metal = "0.1.1"
-cortex-m = "0.5.2"
+bare-metal = "0.2.3"
+cortex-m = "0.5.7"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
 optional = true
-version = "0.5.1"
+version = "0.6.3"
 
 [features]
 rt = ["cortex-m-rt/device"]
